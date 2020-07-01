@@ -8,25 +8,42 @@
     <title>Document</title>
 </head>
 <body>
-<form>
-  <div class="form-group row">
-    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="col-form-label-sm">
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="col-form-label-lg">
-    </div>
-  </div>
-</form>
+<form id="form-vente">
+        <legend class="col-sm-16"> <b> AJOUTER  UN PRODUIT</b></legend>
+        <div class="form-group row">
+          <label for="inputProduit" class="col-sm-3 col-form-label">NOM :</label>
+          <div class="col-sm-5">
+            <input type="text" class="form-control" id="inputProduit">
+            <label for="inputProduit" class="col-sm-3 col-form-label">DESCRIPTION :</label>
+          <div class="col-sm-5">
+            <input type="text" class="form-control" id="inputProduit">
+          <label for="inputProduit" class="col-sm-3 col-form-label">CATEGORIE :</label>
+          <div class="col-sm-5">
+            <input type="text" class="form-control" id="inputProduit">
+        
+        <div class="form-group row">
+          <label for="inputQuantite" class="col-sm-3 col-form-label">Quantité :</label>
+          <div class="col-sm-5">
+            <input type="number" class="form-control" id="inputQuantite">
+          </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputMontantd" class="col-sm-3 col-form-label">Montant donné :</label>
+            <div class="col-sm-5">
+              <input type="number" class="form-control" id="inputMontantd">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputMontantr" class="col-sm-3 col-form-label">Montant remis :</label>
+            <div class="col-sm-5">
+              <input type="number" class="form-control" id="inputMontantr">
+            </div>
+          </div>
+        <div class="form-group row">
+          <div class="col-sm-5">
+            <button type="submit" class="btn btn-primary">Vendre</button>
+          </div>
+        </div>
+      </form>
 </body>
 </html>
