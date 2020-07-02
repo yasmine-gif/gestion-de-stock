@@ -15,6 +15,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Les routes de l'authentification
+
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
+Auth::routes(['register' => false]);
+
+// Les routes de voyager
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
