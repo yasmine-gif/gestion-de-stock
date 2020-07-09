@@ -1,0 +1,17 @@
+body{
+background-image: url(public/image/voiture.jpg); 
+background-size: cover;
+ }
+
+ .mycard{
+    
+     margin-top: 250px;
+     box-shadow: 0 19px 38px rgba(18, 228, 200, 0.3),0 10px 12px rgba(0, 0, 0, 0.22);
+ }
+ .text{
+     color: blue;
+ }
+
+ .con{
+     height: 200px;
+ }
